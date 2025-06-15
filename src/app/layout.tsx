@@ -1,18 +1,18 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Matúš Kočik",
-  description: "Personal web of Matúš Kočik",
+  title: "Domus Koco",
+  description: "RK Domus Koco",
 };
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="sk">
+      <body className="md:text-lg">{children}</body>
     </html>
   );
 }

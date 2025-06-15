@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply font-gothic bg-[#8a5f30] text-[#f0d6b2];
+}
